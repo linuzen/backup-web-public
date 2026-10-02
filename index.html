@@ -1,13 +1,56 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GTD Backup Viewer</title>
     <script type="module" crossorigin src="/assets/index-Bh91HGMV.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-77oyvMKP.css">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        background-color: #f8f9fa;
+        color: #212529;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .quote-container {
+        max-width: 680px;
+        margin: 20px;
+        padding: 40px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+      blockquote {
+        margin: 0;
+        font-size: 1.15rem;
+        line-height: 1.8;
+        color: #333333;
+        word-break: keep-all;
+      }
+      cite {
+        display: block;
+        margin-top: 20px;
+        font-style: normal;
+        font-size: 0.95rem;
+        color: #6c757d;
+        text-align: right;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <main class="quote-container">
+        <blockquote>
+          "부처나 신은 디지털 컴퓨터의 회로 속이나 모터사이클의 변속기 기어박스 안에서도, 산꼭대기나 꽃잎 속에서와 마찬가지로 아주 편안하게 정좌하고 있다. 그렇지 않다고 생각하는 것은 부처의 품위를 손상시키는 일이며, 나아가서 우리 자신의 품위를 손상시키는 일이 된다."
+        </blockquote>
+        <cite>- 로버트 M. 피어시그, 『선과 모터사이클 정비 기술』</cite>
+      </main>
+    </div>
   </body>
 </html>
